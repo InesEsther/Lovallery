@@ -6,9 +6,16 @@ using TMPro;
 
 public class DialogueSystem : MonoBehaviour
 {
-    //[Serializedfield] private DialogueContainer = new DialogueContainer();
+   public DialogueContainer dialogueContainer = new DialogueContainer();
+   public static DialogueSystem instance;
 
-
+   private void Awake()
+   {
+    if (instance == null)
+        instance = this;
+    else 
+         DestroyImmediate(gameObject);
+   }
 
     // Start is called before the first frame update
     void Start()

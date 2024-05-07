@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueContainer : MonoBehaviour
+[System.Serializable]
+public class DialogueContainer 
 {
-    public GameObject root;
-    public TMP_text nameText; 
-    public TMP_text dialogueText;
+   public GameObject root;
+   public TextMeshProUGUI nameText; 
+   public TMP_Text dialogueText;
 }
