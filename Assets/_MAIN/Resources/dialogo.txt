@@ -1,0 +1,6 @@
+Valerie: ¡Hola! ¿Cómo estás?
+Degas: Hola, estoy bien gracias. ¿Y tú?
+Valerie: Estoy bien también. ¿Qué planes tienes para hoy?
+Degas: No mucho, solo planeo relajarme en casa.
+Valerie: Eso suena genial.
+
