@@ -9,7 +9,7 @@ public class DialogManager : MonoBehaviour
 
     void Start()
     {
-       // Cargar el archivo de texto que contiene el diálogo desde la carpeta Resources
+        // Cargar el archivo de texto que contiene el diálogo desde la carpeta Resources
         TextAsset textAsset = Resources.Load<TextAsset>("dialogo");
 
         // Dividir el contenido del archivo de texto en segmentos de diálogo usando saltos de línea como separadores
