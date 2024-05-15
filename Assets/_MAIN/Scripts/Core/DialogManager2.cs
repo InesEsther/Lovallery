@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class DialogManager : MonoBehaviour
+public class DialogManager2 : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI nameText; // Nuevo campo para mostrar el nombre del personaje
@@ -11,7 +11,9 @@ public class DialogManager : MonoBehaviour
     void Start()
     {
         // archivo de texto que contiene el diálogo desde Resources
-        TextAsset textAsset = Resources.Load<TextAsset>("dialogo");
+        TextAsset textAsset = Resources.Load<TextAsset>("dialogoEscena2");
+        // Aplicar estilos al texto entre paréntesis
+        string dialogTextContent = TextStyler.ApplyStyleToText(textAsset.text);
 
         // Dividir el contenido del archivo de texto en líneas de diálogo
         dialogLines = textAsset.text.Split('\n');
@@ -44,6 +46,7 @@ public class DialogManager : MonoBehaviour
 
         // Mostrar el texto del diálogo en el TextMeshPro dialogText
         dialogText.text = dialogTextContent;
+        
 
         // Incrementar el índice para la siguiente línea
         currentLineIndex++;
@@ -53,5 +56,14 @@ public class DialogManager : MonoBehaviour
             // Si hemos llegado al final del diálogo, puedes hacer algo, como desactivar el panel de diálogo
             gameObject.SetActive(false);
         }
+    }
+    public class TextStyler
+    {
+    public static string ApplyStyleToText(string input)
+    {
+        string pattern = @"\((.*?)\)";
+        string styledText = System.Text.RegularExpressions.Regex.Replace(input, pattern, "<i>$1</i>");
+        return styledText;
+    }
     }
 }
