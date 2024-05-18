@@ -6,6 +6,7 @@ public class DialogManager : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI nameText; // nombre del personaje
+    public string Escena2;
     private string[] dialogLines; // líneas de diálogo
     private int currentLineIndex = 0;
   
@@ -33,28 +34,39 @@ public class DialogManager : MonoBehaviour
 
     void ShowNextLine()
     {
-    // Verificar si hemos llegado al final del diálogo
-    if (currentLineIndex < dialogLines.Length)
-    {
-        // Dividir la línea de diálogo en nombre del personaje y texto del diálogo
-        string[] lineParts = dialogLines[currentLineIndex].Split(':');
-        string characterName = lineParts[0].Trim(); // Nombre del personaje
-        string dialogTextContent = lineParts[1].Trim(); // Texto del diálogo
+     if (currentLineIndex < dialogLines.Length)
+        {
+            string line = dialogLines[currentLineIndex].Trim();
+            if (!string.IsNullOrEmpty(line))
+            {
+                string[] lineParts = line.Split(':');
+                if (lineParts.Length >= 2)
+                {
+                    string characterName = lineParts[0].Trim();
+                    string dialogTextContent = lineParts[1].Trim();
 
-        // Mostrar el nombre del personaje en nameText
-        nameText.text = "<size=+2><b>" + characterName + "</b></size>";
-
-        // Mostrar el texto del diálogo en dialogText
-        dialogText.text = dialogTextContent;
-
-        // Incrementar el índice para la siguiente línea
-        currentLineIndex++;
+                    nameText.text = "<size=+2><b>" + characterName + "</b></size>";
+                    dialogText.text = dialogTextContent;
+                }
+                else
+                {
+                    Debug.LogWarning("Formato de línea incorrecto en el archivo de diálogo: " + line);
+                }
+            }
+            currentLineIndex++;
+        }
+        else
+        {
+            // Si no hay más líneas disponibles, cambiar de escena
+            if (!string.IsNullOrEmpty(Escena2))
+            {
+                SceneManager.LoadScene(Escena2);
+            }
+            else
+            {
+                Debug.LogWarning("Nombre de la siguiente escena no especificado.");
+            }
+        }
     }
-     else
-    {
-        // Implementar aqui el cambio de escena!!
-        gameObject.SetActive(false);
-        SceneManager.LoadScene("Escena2");
-     }
     }
-}
+
