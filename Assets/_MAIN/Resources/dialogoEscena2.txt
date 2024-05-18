@@ -1,41 +1,41 @@
-Valerie: (Ah…)
-Valerie: (¿Dónde estoy?)
-Valerie: (Siento escalofríos… ¿Cuándo habré salido a la calle?)
-Valerie: (Este lugar no se parece a las afueras del D’Orsay… Será mejor que busque un lugar conocido.)
-Valerie: (Es mejor que no hacer nada.)
-Valerie: (Alguien se chocó conmigo y siguió caminando sin disculparse.)
+: Ah…
+: ¿Dónde estoy?
+: Siento escalofríos… ¿Cuándo habré salido a la calle?
+: Este lugar no se parece a las afueras del D’Orsay… Será mejor que busque un lugar conocido.
+: Es mejor que no hacer nada.
+: Alguien se chocó conmigo y siguió caminando sin disculparse.
 Valerie: Perdone-.
-Valerie: (Traté de preguntar a gente que tenía cerca, pero nadie se paraba a ayudarme.)
-Valerie: (Hay mucha gente que no tiene ni un ápice de simpatía por los demás.)
-Valerie: (Mejor empiezo a caminar.)
-Valerie: (Caminé por la calle más transitada cercana durante un rato en busca de alguien conocido.)
-Valerie: (La gente va vestida como gente del siglo XVII. ¿Habrá alguna fiesta hoy? No recuerdo que hubiera tradición como esta en Paris.)
-Valerie: (A poco más de una manzana podía visualizar una cafetería.)
-Valerie: (¡Es el mismo lugar que el cuadro del museo!) 
-Valerie: (Quizás allí puedan ayudarme, no pierdo nada por intentarlo.)
-Valerie: (Cuando llegué a la cafetería, pude escuchar los gritos de una disputa.)
-Valerie: (Últimamente se ha vuelto bastante común montar escándalos en los locales, espero que la situación pronto cambie.)
-Valerie: (Al entrar, pude ver un círculo de gente rodeando tres mesas redondas puestas juntas unas de otras, haciendo un triángulo con ellas.)
-Valerie: (Normalmente los galeristas son los que tienen que apaciguar los ruidos en las salas de exposición, pero… No sé si podré ayudar en esta situación.)
-Valerie: (Cuando presté atención y a pesar del ambiente, parecían más bien emocionados.)
-Valerie: (Así que no estaban peleando después de todo.)
-Valerie: (…No debería seguir escuchando. Mejor voy a preguntarles cómo puedo regresar al museo.)
-Valerie: Hola, ¿Podrían ayudarme? Estoy buscando el museo D’Orsay.
-CASSATT: Tu debes ser Madame Couturier, ¿no?
+: Traté de preguntar a gente que tenía cerca, pero nadie se paraba a ayudarme.
+: Hay mucha gente que no tiene ni un ápice de simpatía por los demás.
+: Mejor empiezo a caminar.
+: Caminé por la calle más transitada cercana durante un rato en busca de alguien conocido.
+: La gente va vestida como gente del siglo XVII. ¿Habrá alguna fiesta hoy? No recuerdo que hubiera tradición como esta en Paris.
+: A poco más de una manzana podía visualizar una cafetería.
+: ¡Es el mismo lugar que el cuadro del museo!
+: Quizás allí puedan ayudarme, no pierdo nada por intentarlo.
+: Cuando llegué a la cafetería, pude escuchar los gritos de una disputa.
+: Últimamente se ha vuelto bastante común montar escándalos en los locales, espero que la situación pronto cambie.
+: Al entrar, pude ver un círculo de gente rodeando tres mesas redondas puestas juntas unas de otras, haciendo un triángulo con ellas.
+: Normalmente los galeristas son los que tienen que apaciguar los ruidos en las salas de exposición, pero… No sé si podré ayudar en esta situación.
+: Cuando presté atención y a pesar del ambiente, parecían más bien emocionados.
+: Así que no estaban peleando después de todo.
+: …No debería seguir escuchando. Mejor voy a preguntarles cómo puedo regresar al museo.
+: Hola, ¿Podrían ayudarme? Estoy buscando el museo D’Orsay.
+Mary Cassatt: Tu debes ser Madame Couturier, ¿no?
 Valerie: ¿Eh?
-Valerie: (Una chica, vestida como una burguesa de la época, me empujó suavemente hacia el corro de sillas que había alrededor de las mesas.)
-Valerie: (Revisó que estaban todos en la mesa y, agarrándome de los hombros, alzó la voz.)
-CASSATT: Amigos, os presento a la galerista de la que os hablé. Ella es la hija del hombre del recinto que vamos a alquilar y la organizadora principal.
-NPC: ¡Hombre, ya era hora! 
+: Una chica, vestida como una burguesa de la época, me empujó suavemente hacia el corro de sillas que había alrededor de las mesas.
+: Revisó que estaban todos en la mesa y, agarrándome de los hombros, alzó la voz.
+Mary Cassatt: Amigos, os presento a la galerista de la que os hablé. Ella es la hija del hombre del recinto que vamos a alquilar y la organizadora principal.
+Hombre Desconcido: ¡Hombre, ya era hora! 
 Valerie: Un moment-
-NPC: Tu padre es un buen amigo mío, ¡Vaya sí lo es!
-CASSATT: ¡Y muy honrado!
-DEGAS: Yo no lo conozco, pero he escuchado muy buenas cosas de él. 
+Hombre Desconocido: Tu padre es un buen amigo mío, ¡Vaya sí lo es!
+Mary Cassatt: ¡Y muy honrado!
+Edgar Degas: Yo no lo conozco, pero he escuchado muy buenas cosas de él. 
 Valerie:  Discul-
-NPC: Pero no te enseñó un poco de clase con la ropa.
-Valerie: (Todo el mundo se quedó en silencio. El hombre más mayor del círculo pegó un sorbo a su bebida y se levantó para ir al baño. El resto miramos al hombre.)
-NPC: ¿Por qué llevas pantalones? ¿Se los has robado a tu hermano? 
+Hombre Desconocido: Pero no te enseñó un poco de clase con la ropa.
+: Todo el mundo se quedó en silencio. El hombre más mayor del círculo pegó un sorbo a su bebida y se levantó para ir al baño. El resto miramos al hombre.
+Hombre Desconocido: ¿Por qué llevas pantalones? ¿Se los has robado a tu hermano? 
 Valerie: ¿Perdón?
-MARY CASSATT: Eso que has dicho es-
-DEGAS: A lo mejor se los ha robado al tuyo.
+Mary Cassatt: Eso que has dicho es-
+Edgar Degas: A lo mejor se los ha robado al tuyo.
 
