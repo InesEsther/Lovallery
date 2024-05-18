@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using TMPro;
 
-public class DialogManager : MonoBehaviour
+public class DialogManager3 : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI nameText; // nombre del personaje
-    public string Escena2;
+    public string Escena4;
 
     private string[] dialogLines; // líneas de diálogo
     private int currentLineIndex = 0;
@@ -22,7 +22,7 @@ public class DialogManager : MonoBehaviour
         characterImages.Add("Edgar Degas", GameObject.Find("EdgarDegasPrueba"));
         characterImages.Add("Valerie", GameObject.Find("ValeriePrueba"));
         characterImages.Add("Narrador", GameObject.Find("NarradorPrueba"));
-        characterImages.Add("Hombre Desconocido", GameObject.Find("HombreDesconocidoPrueba"));
+        characterImages.Add("Desconocido", GameObject.Find("DesconocidoPrueba"));
 
         // Inicializar las imágenes de los personajes como desactivadas
         foreach (var characterImage in characterImages.Values)
@@ -31,7 +31,7 @@ public class DialogManager : MonoBehaviour
         }
 
         // archivo de texto que contiene el diálogo desde Resources
-        TextAsset textAsset = Resources.Load<TextAsset>("dialogo");
+        TextAsset textAsset = Resources.Load<TextAsset>("Escena3Dialogo");
 
         // Divide el contenido del archivo de texto en líneas de diálogo
         dialogLines = textAsset.text.Split('\n');
@@ -88,10 +88,10 @@ public class DialogManager : MonoBehaviour
         else
         {
             // Si no hay más líneas disponibles, cambiar de escena
-            if (!string.IsNullOrEmpty(Escena2))
+            if (!string.IsNullOrEmpty(Escena4))
             {
                 Debug.Log("cambio escena");
-                SceneManager.LoadScene(Escena2);
+                SceneManager.LoadScene(Escena4);
             }
             else
             {
@@ -120,5 +120,4 @@ public class DialogManager : MonoBehaviour
         }
     }
 }
-
 

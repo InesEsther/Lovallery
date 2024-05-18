@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using TMPro;
 
-public class DialogManager2 : MonoBehaviour
+public class DialogManager1 : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI nameText; // nombre del personaje
-    public string Escena3;
+    public string Escena2;
 
     private string[] dialogLines; // líneas de diálogo
     private int currentLineIndex = 0;
@@ -31,7 +31,7 @@ public class DialogManager2 : MonoBehaviour
         }
 
         // archivo de texto que contiene el diálogo desde Resources
-        TextAsset textAsset = Resources.Load<TextAsset>("Escena2Dialogo");
+        TextAsset textAsset = Resources.Load<TextAsset>("Escena1Dialogo");
 
         // Divide el contenido del archivo de texto en líneas de diálogo
         dialogLines = textAsset.text.Split('\n');
@@ -88,10 +88,10 @@ public class DialogManager2 : MonoBehaviour
         else
         {
             // Si no hay más líneas disponibles, cambiar de escena
-            if (!string.IsNullOrEmpty(Escena3))
+            if (!string.IsNullOrEmpty(Escena2))
             {
                 Debug.Log("cambio escena");
-                SceneManager.LoadScene(Escena3);
+                SceneManager.LoadScene(Escena2);
             }
             else
             {
@@ -120,3 +120,5 @@ public class DialogManager2 : MonoBehaviour
         }
     }
 }
+
+
