@@ -2,47 +2,70 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.UI;
 
 public class DialogManager3 : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
-    public TextMeshProUGUI nameText; // nombre del personaje
-    public string Escena4;
+    public TextMeshProUGUI nameText;
+    public Button cassattRuta;
+    public Button degasRuta;
+    public string Cassatt1;
+    public string Degas1;
 
-    private string[] dialogLines; // líneas de diálogo
+    private string[] dialogLines;
     private int currentLineIndex = 0;
-
-    // Diccionario para mapear los nombres de los personajes a sus imágenes
     public Dictionary<string, GameObject> characterImages = new Dictionary<string, GameObject>();
 
     void Start()
     {
-        // Añadir las imágenes de los personajes al diccionario
+        Debug.Log("Iniciando DialogManager3");
+
         characterImages.Add("Mary Cassatt", GameObject.Find("MaryCassattPrueba"));
         characterImages.Add("Edgar Degas", GameObject.Find("EdgarDegasPrueba"));
         characterImages.Add("Valerie", GameObject.Find("ValeriePrueba"));
         characterImages.Add("Narrador", GameObject.Find("NarradorPrueba"));
         characterImages.Add("Desconocido", GameObject.Find("DesconocidoPrueba"));
 
-        // Inicializar las imágenes de los personajes como desactivadas
         foreach (var characterImage in characterImages.Values)
         {
-            characterImage.SetActive(false);
+            if (characterImage != null)
+            {
+                characterImage.SetActive(false);
+            }
+            else
+            {
+                Debug.LogError("Uno de los GameObjects de los personajes no fue encontrado.");
+            }
         }
 
-        // archivo de texto que contiene el diálogo desde Resources
         TextAsset textAsset = Resources.Load<TextAsset>("Escena3Dialogo");
+        if (textAsset != null)
+        {
+            dialogLines = textAsset.text.Split('\n');
+        }
+        else
+        {
+            Debug.LogError("No se pudo cargar el archivo de diálogo.");
+        }
 
-        // Divide el contenido del archivo de texto en líneas de diálogo
-        dialogLines = textAsset.text.Split('\n');
+        cassattRuta.gameObject.SetActive(false);
+        degasRuta.gameObject.SetActive(false);
 
-        // Mostrar la primera línea de diálogo cuando comience el juego
+        cassattRuta.onClick.AddListener(() => {
+            Debug.Log("Botón cassattRuta presionado");
+            LoadScene(Cassatt1);
+        });
+        degasRuta.onClick.AddListener(() => {
+            Debug.Log("Botón degasRuta presionado");
+            LoadScene(Degas1);
+        });
+
         ShowNextLine();
     }
 
     void Update()
     {
-        // Si el jugador presiona click izquierdo del raton
         if (Input.GetMouseButtonDown(0))
         {
             ShowNextLine();
@@ -64,18 +87,15 @@ public class DialogManager3 : MonoBehaviour
 
                     if (string.IsNullOrEmpty(characterName))
                     {
-                        // Caso del narrador
                         characterName = "Narrador";
-                        nameText.text = ""; // No mostrar nombre
+                        nameText.text = "";
                     }
                     else
                     {
                         nameText.text = "<size=+2><b>" + characterName + "</b></size>";
                     }
-                    
-                    dialogText.text = dialogTextContent;
 
-                    // Mostrar la imagen del personaje que está hablando y ocultar las demás
+                    dialogText.text = dialogTextContent;
                     ShowCharacterImage(characterName);
                 }
                 else
@@ -87,29 +107,17 @@ public class DialogManager3 : MonoBehaviour
         }
         else
         {
-            // Si no hay más líneas disponibles, cambiar de escena
-            if (!string.IsNullOrEmpty(Escena4))
-            {
-                Debug.Log("cambio escena");
-                SceneManager.LoadScene(Escena4);
-            }
-            else
-            {
-                Debug.LogWarning("Nombre de la siguiente escena no especificado.");
-            }
+            ShowOptionButtons();
         }
     }
 
-
     void ShowCharacterImage(string characterName)
     {
-        // Desactivar todas las imágenes de los personajes
         foreach (var kvp in characterImages)
         {
             kvp.Value.SetActive(false);
         }
 
-        // Activar solo la imagen del personaje que está hablando
         if (characterImages.ContainsKey(characterName))
         {
             characterImages[characterName].SetActive(true);
@@ -119,5 +127,17 @@ public class DialogManager3 : MonoBehaviour
             Debug.LogWarning("No se encontró la imagen para el personaje: " + characterName);
         }
     }
-}
 
+    void ShowOptionButtons()
+    {
+        Debug.Log("Mostrando botones de opción");
+        cassattRuta.gameObject.SetActive(true);
+        degasRuta.gameObject.SetActive(true);
+    }
+
+    void LoadScene(string sceneName)
+    {
+        Debug.Log("Cargando escena: " + sceneName);
+        SceneManager.LoadScene(sceneName);
+    }
+}

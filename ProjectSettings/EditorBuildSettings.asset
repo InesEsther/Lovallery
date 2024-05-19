@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escena3.unity
     guid: e87e923511bb74e49be8cc969a46dc2f
+  - enabled: 1
+    path: Assets/Scenes/Cassatt1.unity
+    guid: fa338dce58415df4a8b8af0fe72ef7e3
+  - enabled: 1
+    path: Assets/Scenes/Degas1.unity
+    guid: 6baeb48dcbc6d0d43a30570e77b2b1e8
   m_configObjects: {}
