@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Degas1.unity
     guid: 6baeb48dcbc6d0d43a30570e77b2b1e8
+  - enabled: 1
+    path: Assets/Scenes/DegasFinal.unity
+    guid: 859aa4ab71eeeb04a8df2b6a2c6d2c3b
   m_configObjects: {}

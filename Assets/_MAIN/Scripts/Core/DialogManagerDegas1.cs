@@ -48,11 +48,14 @@ public class DialogManagerDegas1 : MonoBehaviour
         }
     }
 
-    public void ShowNextLine()
+ public void ShowNextLine()
     {
-        if (currentLineIndex < dialogLines.Length)
+        // Asegurarse de que no está en medio de una decisión antes de avanzar
+        while (currentLineIndex < dialogLines.Length)
         {
             string line = dialogLines[currentLineIndex].Trim();
+            currentLineIndex++;  // Avanzar el índice de línea
+
             if (line == "DECISION_1")
             {
                 // Notificar a DecisionManager1 que debe mostrar los botones de decisión
@@ -88,10 +91,11 @@ public class DialogManagerDegas1 : MonoBehaviour
                 {
                     Debug.LogWarning("Formato de línea incorrecto en el archivo de diálogo: " + line);
                 }
+                break;  // Salir del bucle después de mostrar la línea de diálogo
             }
-            currentLineIndex++;
         }
-        else
+
+        if (currentLineIndex >= dialogLines.Length)
         {
             // Al final del diálogo, notificar a DecisionManager1
             decisionManager1.CheckPointsAndProceed();

@@ -37,13 +37,14 @@ public class DecisionManager1 : MonoBehaviour
             PointManager1.Instance.AddPoint();
             Debug.Log("Puntos añadidos. Total puntos: " + PointManager1.Instance.GetPoints());
         }
-
+        
+        // Continuar con el diálogo
+        dialogManager.ShowNextLine();
         // Desactivar el panel de botones
         botonesDecisiones.SetActive(false);
         Debug.Log("Panel de botones desactivado");
+        
 
-        // Continuar con el diálogo
-        dialogManager.ShowNextLine();
     }
 
     public void CheckPointsAndProceed()
