@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogManagerDegas1 : MonoBehaviour
 {
@@ -26,14 +27,27 @@ public class DialogManagerDegas1 : MonoBehaviour
         // Inicializar las imágenes de los personajes como desactivadas
         foreach (var characterImage in characterImages.Values)
         {
-            characterImage.SetActive(false);
+            if (characterImage != null)
+            {
+                characterImage.SetActive(false);
+            }
+            else
+            {
+                Debug.LogError("Uno de los GameObjects de los personajes no fue encontrado.");
+            }
         }
 
         // archivo de texto que contiene el diálogo desde Resources
         TextAsset textAsset = Resources.Load<TextAsset>("EscenaDegasDialogo1");
-
-        // Divide el contenido del archivo de texto en líneas de diálogo
-        dialogLines = textAsset.text.Split('\n');
+        if (textAsset != null)
+        {
+            dialogLines = textAsset.text.Split('\n');
+        }
+        else
+        {
+            Debug.LogError("No se pudo cargar el archivo de diálogo.");
+            return;
+        }
 
         // Mostrar la primera línea de diálogo cuando comience el juego
         ShowNextLine();
@@ -48,13 +62,12 @@ public class DialogManagerDegas1 : MonoBehaviour
         }
     }
 
- public void ShowNextLine()
+    public void ShowNextLine()
     {
-        // Asegurarse de que no está en medio de una decisión antes de avanzar
-        while (currentLineIndex < dialogLines.Length)
+        if (currentLineIndex < dialogLines.Length)
         {
             string line = dialogLines[currentLineIndex].Trim();
-            currentLineIndex++;  // Avanzar el índice de línea
+            currentLineIndex++; // Avanzar el índice de línea
 
             if (line == "DECISION_1")
             {
@@ -91,14 +104,14 @@ public class DialogManagerDegas1 : MonoBehaviour
                 {
                     Debug.LogWarning("Formato de línea incorrecto en el archivo de diálogo: " + line);
                 }
-                break;  // Salir del bucle después de mostrar la línea de diálogo
+                return;
             }
         }
 
+        // Si no hay más líneas disponibles, cambiar de escena
         if (currentLineIndex >= dialogLines.Length)
         {
-            // Al final del diálogo, notificar a DecisionManager1
-            decisionManager1.CheckPointsAndProceed();
+            LoadNextScene();
         }
     }
 
@@ -120,4 +133,12 @@ public class DialogManagerDegas1 : MonoBehaviour
             Debug.LogWarning("No se encontró la imagen para el personaje: " + characterName);
         }
     }
+
+    void LoadNextScene()
+    {
+        Debug.Log("Cargando la siguiente escena: Degas2");
+        SceneManager.LoadScene("Degas2");
+    }
 }
+
+

@@ -21,12 +21,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Escena3.unity
     guid: e87e923511bb74e49be8cc969a46dc2f
   - enabled: 1
-    path: Assets/Scenes/Cassatt1.unity
-    guid: fa338dce58415df4a8b8af0fe72ef7e3
-  - enabled: 1
     path: Assets/Scenes/Degas1.unity
     guid: 6baeb48dcbc6d0d43a30570e77b2b1e8
   - enabled: 1
-    path: Assets/Scenes/DegasFinal.unity
+    path: Assets/Scenes/Degas2.unity
+    guid: 3e30364575e1e304eb697b64741d0b16
+  - enabled: 1
+    path: Assets/Scenes/DegasGoodEnd.unity
     guid: 859aa4ab71eeeb04a8df2b6a2c6d2c3b
+  - enabled: 1
+    path: Assets/Scenes/DegasBadEnd.unity
+    guid: 77945234f149bb7499148fde92758611
+  - enabled: 1
+    path: Assets/Scenes/Cassatt1.unity
+    guid: fa338dce58415df4a8b8af0fe72ef7e3
+  - enabled: 1
+    path: Assets/Scenes/Cassatt2.unity
+    guid: 5b6e77c0aed195f45b4fb223b884beab
+  - enabled: 1
+    path: Assets/Scenes/CassattGoodEnd.unity
+    guid: 14f2123c49906344a961c6d7f03afdd0
+  - enabled: 1
+    path: Assets/Scenes/CassattBadEnd.unity
+    guid: 94528fd615ba94d4ba4fb42c5514f28e
   m_configObjects: {}

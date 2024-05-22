@@ -50,15 +50,5 @@ public class DecisionManager1 : MonoBehaviour
     public void CheckPointsAndProceed()
     {
         Debug.Log("Chequeando puntos para proceder");
-        if (PointManager1.Instance.GetPoints() > 2)
-        {
-            Debug.Log("Cargando escena DegasFinal");
-            SceneManager.LoadScene("DegasFinal");
-        }
-        else
-        {
-            Debug.Log("Mostrando panel de resultado");
-            panelResultado.SetActive(true);
-        }
     }
 }
