@@ -1,0 +1,36 @@
+: Caminaba detrás de ella sin poder hablar.
+: A pesar de que ella era amable antes, ahora su actitud fría me impedía entablar una conversación.
+: Primero fuimos a una tienda de arte cercana y terminamos en el parque, donde el caballete estaba donde había manchas de pinturas resecas en las piedras del camino.
+Desconocido: ¡Mary! ¿Qué vas a pintar hoy?
+Mary Cassatt: Probablemente algo interesante, ¡Adiós!
+Valerie: ¿Eres conocida por aquí?
+Mary Cassatt: Un poco, vengo aquí frecuentemente para pintar y escapar de mis problemas. 
+Mary Cassatt: Así que la gente de la zona me conoce.
+: Mary parecía dispersa, voy a intentar abordar el tema del recinto primero.
+Valerie: ¿Te ha hecho mucho daño la disputa con Degas?
+Mary Cassatt: …
+Valerie: Puedo hablar con él si t-
+Mary Cassatt: No me hacen daño las palabras de un soberbio como él. Además, puede que hasta tenga razón.
+Valerie: ¿Perdón?
+: Ella acababa de coger una brocha grande y empezar el lienzo que había comprado antes.
+Mary Cassatt: Porque no somos tan buenas ni creativas, no estamos preparadas biológicamente para eso. En realidad, yo esto solo lo hago por hobby. 
+Valerie: ¿Por qué piensas eso, Mary? Yo creo que eres una pintora estupenda.
+Mary Cassatt: Qué mona, gracias…
+: Parece que a Mary le gustó mi comentario, aunque no se si sonríe por cortesía realmente.
+: Me miraba tan concentrada que el rubor de mis mejillas empezaban a ser visibles.
+: De repente, su mano alcanzó un mechón de mi cara.
+Mary Cassatt: Tenías una hoja.
+: Me mostró que tenía en la mano. Era un trozo de hoja que terminó tirando al suelo.
+Valerie: Ah…
+DECISION_1
+Mary Cassatt: …Será mejor que continúe.
+: Embelesada, solo pude asentir sin decir nada más.
+: Estuvimos buena parte del día en el parque. 
+: No hablábamos, pues estaba tan concentrada pintando a un par de niños jugando en las flores que no podía hablar. 
+: Pero de vez en cuando, nos mirabamos y sonreíamos. Creo que ella disfrutaba de mi compañía tanto como yo la de ella.
+: Dentro de mí, pedía que esta paz se extendiera un poco más.
+: se estaba haciendo tarde para pintar, pero aún había horas de luz restantes.
+Mary Cassatt: Debería disculparme con Edgar. Si bien no coincidimos, mi forma de hablarle no fue la apropiada.
+: Creo que no debería disculparse, pero si es lo que quiere…
+Valerie: Te acompañaré.
+: Y así, iniciamos la marcha hacia el café.

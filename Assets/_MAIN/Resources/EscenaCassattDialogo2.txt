@@ -1,0 +1,58 @@
+: Reconocimos un par de niños que corrían en dirección contraria. 
+: Está callada, sumida en sus pensamientos mientras atravesamos el parque hasta la cafetería.
+: En un par de minutos ya estábamos en la cafetería. 
+Mary Cassatt: ¿Qué quieres beber? Te invito.
+Valerie: ¡Vale!
+DECISION_2
+Mary Cassatt: A mi también me gusta de hecho.
+: Se fue a pedir mientras yo escogía una mesa dentro de la cafetería. 
+: No había nadie, supongo que porque era una hora próxima al cierre.
+: Mientras esperaba en la barra, se giró a mirarme. 
+: Se mantenía seria, como si me estuviera analizando.
+: Yo no pude evitar sonrojarme.
+: Era una mujer tan bella que era imposible no ponerse nerviosa.
+: Al poco, Mary vino y se sentó a mi lado. 
+Mary Cassatt: Parece que todos ya se fueron, ya me disculparé con él otro día.
+Valerie: Es usted muy amable.
+Mary Cassatt: ¿Por qué lo dice?
+: El bartender nos trajo nuestros cafés con lo que pedimos. 
+: Mary empezó a comer mientras yo me explicaba.
+Valerie: Todo el mundo le saluda, la quiere y la respeta por esta zona.
+Valerie: Es lo que podido ver el día de hoy contigo.
+Valerie: Edgar es afortunado de tenerte como amiga.
+Mary Cassatt: Me alaga señorita Couturier, pero…
+Valerie: Valerie, dime Valerie.
+Mary Cassatt: Valerie… Pero creo que no soy como usted espera.
+Mary Cassatt: Yo solo soy como cualquier otra persona con etiqueta sería.
+Valerie: Pues el señor Degas no lo es.
+Mary Cassatt: Él es para dar de comer aparte. Hablo en general.
+: Nos echamos a reir.
+Mary Cassatt: Creo que tendrías que conocerme mejor para tener una impresión correcta de mi.
+Valerie: ¿Pues sabe que? No habría cosa que más me apeteciera en este momento que conocerte, Mary.
+: Me dedicó una bonita sonrisa, tanto que hizo que mi corazón parara por un segundo.
+: ¿Sería un poco violento si intentara un movimiento con ella?
+Mary Cassatt: ¿Por qué me elegiste? Degas no estaba equivocado tampoco.
+Valerie: Solo seguí lo que mi corazón decía que quería.
+Mary Cassatt: Que fácil es hacer eso, debió crecer en un ambiente libre para pensar así.
+Valerie: La verdad es que soy afortunada. Mi familia y mis amigos siempre apoyaron mis sueños.
+Mary Cassatt: Eso si que es dicha.
+Valerie: Tú también podrías, si quisieras.
+Mary Cassatt: Lo veo muy complicado, Valerie.
+Valerie: No tienes que hacerlo todo de repente, Mary, puedes empezar con pequeñas cosas…
+Mary Cassatt: ¿Cómo cuáles?
+Valerie: Como…
+: No podía decirle lo que estaba pensando, porque no se si ella quiere.
+: No podía evitar mirar sus labios.
+Mary Cassatt: ¿Cómo besarme?
+Valerie: …
+: Mis mejillas se colorearon de un intenso rojo.
+: Sentía que me ardía la cara.
+Mary Cassatt: Bueno, solo se vive una vez, así que… 
+: Parecía estar de acuerdo, pero se veía muy perdida, no parecía acostumbrada a esto.
+: Me acerqué la primera pues, aprovechando que nadie nos veía. 
+: Estaba tan cerca que podía notar su aliento.
+: Pero ella, nerviosa, abrió el abanico que siempre cargaba con ella, dándose aire.
+: Le di unos segundos para que se sintiera cómoda y volví a acercarme. 
+: Esta vez no se movía, pero no me estaba rechazando.
+DECISION_3
+: ...

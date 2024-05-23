@@ -2,12 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DecisionManager1 : MonoBehaviour
+public class DecisionManager3 : MonoBehaviour
 {
     public GameObject botonesDecisiones;
-    public Button decision1DegasA;
-    public Button decision1DegasB;
-    public DialogManagerDegas1 dialogManager;
+    public Button decision1CassattA;
+    public Button decision1CassattB;
+    public DialogManagerCassatt1 dialogManager;
   
 
     void Start()
@@ -16,8 +16,8 @@ public class DecisionManager1 : MonoBehaviour
         botonesDecisiones.SetActive(false);
 
         // Asignar funciones a los botones
-        decision1DegasA.onClick.AddListener(() => OnDecisionMade(true));
-        decision1DegasB.onClick.AddListener(() => OnDecisionMade(false));
+        decision1CassattA.onClick.AddListener(() => OnDecisionMade(true));
+        decision1CassattB.onClick.AddListener(() => OnDecisionMade(false));
     }
 
     public void ShowDecisionButtons(int decisionNumber)
