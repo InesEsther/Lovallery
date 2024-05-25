@@ -1,0 +1,71 @@
+: Estuve esperando a que saliera con una cesta de cosas. 
+: No ha hablado en todo el camino, me preguntó qué pensará.
+: Mientras íbamos al parque, me dió una botella de vino que había sacado de la cesta. Puedo reconocer esta marca, sigue produciendo en la actualidad.
+: Degas tendió la sábana que cogió en el césped.
+Valerie: ¡¿…?!
+Valerie: ¿Por qué de repente has-?
+Edgar Degas: La he cogido para descansar un poco antes de volver. 
+: Se sienta y me mira.
+: Gentilmente desliza sus dedos por la palma de mi mano.
+Edgar Degas: ¿Querrías acompañarme?
+Valerie: Yo…
+Edgar Degas: Entiendo que me quieres decir que Mary es como yo, pero…
+: Inevitablemente, me siento a su lado con la botella de vino en mano.
+Valerie: ¿Qué es lo que sientes al imaginarlo?
+Edgar Degas: Intranquilidad.
+Valerie: ¿Intranquilidad?
+Edgar Degas: No lo diré dos veces.
+: Primero dice que no tiene nada que temerle a nadie y luego que está intranquilo por si Mary le arrebata la atención… ¿Cuál de las dos es la verdad?
+: A lo mejor me está diciendo esto con otro propósito…
+: Pero no le voy a seguir presionando. Vamos a cambiar de tema.
+Valerie: ¿Por qué te gusta pintar bailarinas?
+Edgar Degas: Por la composición principalmente. Su gracia, su elegancia y su forma de moverse, son tan hermosas como gacelas. A veces tardo muchas horas pero siempre he sido un perfeccionista.
+Valerie: ¿Y nunca te has enamorado de ninguna bailarina? No hablo de las niñas pero si de alguna adulta.
+Edgar Degas: Nunca sería capaz de pintar a alguien por la que tendría sentimientos. No podría concentrarme.
+: …
+: No me esperaba esa respuesta. 
+: Mientras que Edgar empezaba a preparar el picnic, yo intentaba abrir la botella.
+Edgar Degas: ¿Por qué viniste conmigo?
+Valerie: ¿Eh?
+Edgar Degas: Podías haberte ido con Mary…
+Valerie: ¿Por qué? ¿Por qué es mujer?
+Edgar Degas: No mujer, no es por eso.
+: Parece que trata de encontrar las palabras adecuadas. 
+Edgar Degas: Porque tenéis ideales más parecidos.
+DECISION_2
+Valerie: Antes, tú me defendiste de aquellos señores que trataban de mangonearme y pensé que una persona así no podría ser tan mala.
+Edgar Degas: … Quizás lo hice por algún motivo.
+Valerie: O quizás no.
+Edgar Degas: …
+Valerie: Si es cierto que igual no tenemos la misma forma de pensar y en algún momento creí que me había equivocado contigo…
+: Él me quitó la botella de las manos y la abrió, sirviendo vino en las copas que él transportaba.
+Valerie: Pero ahora estoy segura de que eres un buen hombre, en el fondo.
+: Parece que mi respuesta lo ha dejado satisfecho por la forma en la que me miraba.
+: La primera hora bebiendo pasó volando. 
+: Le conté, con un par de copas bebidas, quién era realmente y cómo había llegado ahí.
+: Él no parecía extrañado, como si supiera quien era desde el primer momento.
+: Aunque también puede ser que no esté procesando lo que estoy diciendo por el alcohol.
+Valerie: Me recuerdas a un compañero mío. 
+Edgar Degas: ¿Si?
+Valerie: Él tampoco ha tenido pareja nunca y no suele expresarse bien.
+Edgar Degas: Pues tratalo bien, quizás solo no ha encontrado a la persona indicada a la cual expresarse.
+: Sonreí con mis mejillas coloradas por el vino.
+: No podría estar más de acuerdo.
+: Me percaté que observaba muy concentrado mi rostro.
+: ¿Está… Invitándome?
+: Parecía que lentamente se estaba inclinando.
+: Hasta ahora, parecía que no había nada de química entre nosotros, pero…
+: Esto podría cambiar en este momento.
+: Dejó la botella a un lado y derribó una de las copas, despertándonos a los dos del trance.
+: Degas se tumbó de lado y yo hice lo mismo.
+: Mi cuerpo estaba girado hacia él, pero él no estaba tumbado hacia mi.
+Valerie: ¿Por qué no me miras?
+Edgar Degas: Porque sabes que va a pasar si lo hago.
+: Y tiene razón, lo sabía. Debía ser por la influencia del alcohol o por el ambiente pero… Quería que pasara.
+Valerie: Estoy bien con ello.
+DECISION_3
+: Degas se gira hacia mí, con las pupilas dilatadas. Parecía un poco avergonzado, y de cierta forma, me tranquilizó saber que estaba tan nervioso como yo.
+: Me acomodé y estiré mi cuello, entrecerrando mis ojos.
+: Podía ver que se disipaba el resto de dudas que tenía de su rostro.
+: Ya teníamos ganas de besarnos antes, así que esto era inevitable. 
+: Me pasó su brazo por el lateral de la cabeza a modo de almohada y se inclinó de nuevo.
