@@ -7,6 +7,24 @@ public class InicioScript : MonoBehaviour
 {
     GameObject panelConfiguracion;
 
+    //guardado
+    public class GameState 
+{
+    public int chapter; // Capítulo actual del juego
+    public string currentScene; // Escena actual
+    public Dictionary<string, int> characterAffection; // Afecto de los personajes
+    public List<string> playerChoices; // Elecciones del jugador
+
+    public GameState(int chapter, string currentScene, Dictionary<string, int> characterAffection, List<string> playerChoices)
+     {
+        this.chapter = chapter;
+        this.currentScene = currentScene;
+        this.characterAffection = characterAffection;
+        this.playerChoices = playerChoices;
+    }
+}
+
+
     // Start is called before the first frame update
     void Start()
     {
