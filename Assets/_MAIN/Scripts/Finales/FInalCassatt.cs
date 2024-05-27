@@ -12,23 +12,10 @@ public class FinalCassatt : MonoBehaviour
     private string[] dialogLines; // líneas de diálogo
     private int currentLineIndex = 0;
 
-    // Diccionario para mapear los nombres de los personajes a sus imágenes
-    public Dictionary<string, GameObject> characterImages = new Dictionary<string, GameObject>();
+
 
     void Start()
     {
-        // Añadir las imágenes de los personajes al diccionario
-        characterImages.Add("Mary Cassatt", GameObject.Find("MaryCassattPrueba"));
-        characterImages.Add("Edgar Degas", GameObject.Find("EdgarDegasPrueba"));
-        characterImages.Add("Valerie", GameObject.Find("ValeriePrueba"));
-        characterImages.Add("Narrador", GameObject.Find("NarradorPrueba"));
-        characterImages.Add("Desconocido", GameObject.Find("DesconocidoPrueba"));
-
-        // Inicializar las imágenes de los personajes como desactivadas
-        foreach (var characterImage in characterImages.Values)
-        {
-            characterImage.SetActive(false);
-        }
 
         // archivo de texto que contiene el diálogo desde Resources
         TextAsset textAsset = Resources.Load<TextAsset>("FinalCassatt");
@@ -75,8 +62,6 @@ public class FinalCassatt : MonoBehaviour
                     
                     dialogText.text = dialogTextContent;
 
-                    // Mostrar la imagen del personaje que está hablando y ocultar las demás
-                    ShowCharacterImage(characterName);
                 }
                 
             }
@@ -94,23 +79,5 @@ public class FinalCassatt : MonoBehaviour
     }
 
 
-    void ShowCharacterImage(string characterName)
-    {
-        // Desactivar todas las imágenes de los personajes
-        foreach (var kvp in characterImages)
-        {
-            kvp.Value.SetActive(false);
-        }
-
-        // Activar solo la imagen del personaje que está hablando
-        if (characterImages.ContainsKey(characterName))
-        {
-            characterImages[characterName].SetActive(true);
-        }
-        else
-        {
-            Debug.LogWarning("No se encontró la imagen para el personaje: " + characterName);
-        }
-    }
 }
 
