@@ -2,10 +2,10 @@
 : Al entrar, pude ver un círculo de gente rodeando tres mesas redondas puestas juntas unas de otras, haciendo un triángulo con ellas.
 : Normalmente los galeristas son los que tienen que apaciguar los ruidos en las salas de exposición, pero… No sé si podré ayudar en esta situación.
 : Cuando presté atención y a pesar del ambiente, parecían más bien emocionados.
-: Así que no estaban peleando después de todo.
-: …No debería seguir escuchando. Mejor voy a preguntarles cómo puedo regresar al museo.
+: Así que no estaban peleando después de todo. 
+:...No debería seguir escuchando. Mejor voy a preguntarles cómo puedo regresar al museo.
 Valerie: Hola, ¿Podrían ayudarme? Estoy buscando el museo D’Orsay.
-Mary Cassatt: Tu debes ser Madame Couturier, ¿no?
+Mary Cassatt: Tu debes ser la madame Couturier, ¿no?
 Valerie: ¿Eh?
 : Una chica, vestida como una burguesa de la época, me empujó suavemente hacia el corro de sillas que había alrededor de las mesas.
 : Revisó que estaban todos en la mesa y, agarrándome de los hombros, alzó la voz.
@@ -22,6 +22,33 @@ Desconocido: ¿Por qué llevas pantalones? ¿Se los has robado a tu hermano?
 Valerie: ¿Perdón?
 Mary Cassatt: Eso que has dicho es-
 Edgar Degas: A lo mejor se los ha robado al tuyo.
-Mary Cassatt: ...
-Valerie: -Sorprendida.-
-Desconocido: ¿?
+Mary Cassatt: …
+Valerie: (Sorprendida)
+Desconocido: ¿Qué has dicho de mi hermano?
+Mary Cassatt: Caballeros, esto no es un corral, no vayan a pelear enfrente de las damas.
+Edgar Degas: Tu calla que nadie te ha dado velo en este entierro.
+Mary Cassatt: ¿¡Perdona!?
+Valerie: ¡Suficiente! Dejen de pelear.
+: Será mejor que desvíe el tema antes de que se sigan calentando las cosas.
+: Voy a fingir de momento que soy la galerista que buscan.
+Valerie: Expliquenme la situación.
+Mary Cassatt: Verá usted, señorita Couturier. Queremos reservar el recinto de su padre el quince de abril de este año, mil ochocientos setenta y cuatro.
+: ¡Entonces estoy en mil ochocientos setenta y cuatro!
+: ¿Cómo he llegado aquí? Y peor… ¿Cómo puedo volver?
+Mary Cassatt: Hasta aquí no hay problema. Su padre, muy amable, nos ha dejado el recinto a bajo precio y empezamos con la organización de las obras. 
+Valerie: Bien, entonces necesito la ruta de los cuadros.
+Mary Cassatt: Ese es el problema. No nos ponemos de acuerdo con el espacio que merece cada uno.
+Edgar Degas: Porque no das tu brazo a torcer.
+Mary Cassatt: Estás siendo muy egoísta, Edgar.
+Edgar Degas: Si tan solo aceptaras irte a otro espacio no tendríamos este problema.
+Valerie: Por favor, expliquen la situación.
+Edgar Degas: La señorita Cassatt, como es muy orgullosa, quiere poner sus obras en la segunda planta, junto a mi. Y no entiende que yo tengo un amplio catálogo y necesito 2 espacios para mi.
+Mary Cassatt: Pero es que si no, yo no tendré espacio para mis obras. El hueco que sobra no es ni una cuarta parte que la del resto.
+Degas: Te ofrecimos huecos entre sección y sección para que tus cuadros estuvieran en todo el recinto, solución hay, solo no quieres aceptarlo.
+Mary Cassatt: ¡Serás…!
+Valerie: ¡Ya lo pillo! Pues necesitaria primero ver visualmente como distribuir el espacio. ¿Me podrían acompañar?
+Mary Cassatt: No es necesario, ya lo miramos y no hay solución.
+Edgar Degas: Le toca ceder y punto. Dicho esto, me retiro, la clase de las bailarinas va a comenzar en breve.
+: Y dicho lo cual, se fue como alma se lleva el diablo.
+: Cassatt por su lado, también se fue por el suyo.
+: Creo que debería hablar primero con….
