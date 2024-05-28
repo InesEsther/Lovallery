@@ -19,6 +19,8 @@ public class AudioManager : MonoBehaviour
         //_audioSource.play( );
     }
 
+    //HACER UN SINGLETON, UN 
+
     // Update is called once per frame
     void Update()
     {
