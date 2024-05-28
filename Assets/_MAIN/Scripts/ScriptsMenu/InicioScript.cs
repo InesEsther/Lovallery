@@ -7,7 +7,7 @@ public class InicioScript : MonoBehaviour
 {
     GameObject panelConfiguracion;
 
-    //guardado
+    /* guardado
     public class GameState 
 {
     public int chapter; // Capítulo actual del juego
@@ -22,7 +22,7 @@ public class InicioScript : MonoBehaviour
         this.characterAffection = characterAffection;
         this.playerChoices = playerChoices;
     }
-}
+} */
 
 
     // Start is called before the first frame update
