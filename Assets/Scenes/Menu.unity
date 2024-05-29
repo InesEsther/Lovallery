@@ -920,8 +920,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bandaSonoraMenuEscena1: {fileID: 8300000, guid: 2f4a14f8cdac92643ba8158cc4f26957, type: 3}
-  bandaSonoraEscena3Degas1: {fileID: 0}
-  bandaSonoraGeneral: {fileID: 0}
+  audiosEscena3:
+  - {fileID: 8300000, guid: 5533f185abadef541a14d0ebca6ca953, type: 3}
+  bandaSonoraDegas1: {fileID: 0}
 --- !u!1 &1038585944
 GameObject:
   m_ObjectHideFlags: 0

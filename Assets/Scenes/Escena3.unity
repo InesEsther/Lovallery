@@ -2190,7 +2190,6 @@ GameObject:
   - component: {fileID: 1583494311}
   - component: {fileID: 1583494310}
   - component: {fileID: 1583494313}
-  - component: {fileID: 1583494314}
   m_Layer: 0
   m_Name: AudioManagerEscena3Degas1
   m_TagString: Untagged
@@ -2417,24 +2416,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonoraMenuEscena1: {fileID: 0}
-  bandaSonoraEscena3Degas1: {fileID: 0}
-  bandaSonoraGeneral: {fileID: 0}
---- !u!114 &1583494314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583494309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bandaSonoraMenuEscena1: {fileID: 0}
-  bandaSonoraEscena3Degas1: {fileID: 0}
-  bandaSonoraGeneral: {fileID: 0}
+  MenuEscena1: {fileID: 0}
+  Escena3:
+  - {fileID: 8300000, guid: a5fde9f8b342ebd43ae407bd03efb1b1, type: 3}
+  - {fileID: 8300000, guid: 5533f185abadef541a14d0ebca6ca953, type: 3}
+  Degas1: {fileID: 0}
+  Escena1: []
+  Escena2: []
 --- !u!1 &1619776613
 GameObject:
   m_ObjectHideFlags: 0

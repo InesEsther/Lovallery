@@ -655,8 +655,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bandaSonoraMenuEscena1: {fileID: 0}
-  bandaSonoraEscena3Degas1: {fileID: 0}
-  bandaSonoraGeneral: {fileID: 0}
+  audiosEscena3: []
+  bandaSonoraDegas1: {fileID: 0}
+  audiosEscena: []
+  audiosEscena2: []
+  audiosDegas2: []
+  audiosDegasGoodEnd: []
+  audiosCassattGoodEnd:
+  - {fileID: 8300000, guid: 9b64333c925c3504bb7093230602bba5, type: 3}
+  audiosCassatt1: []
+  audiosCassatt2: []
 --- !u!4 &597218427
 Transform:
   m_ObjectHideFlags: 0
