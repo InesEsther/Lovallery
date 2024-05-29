@@ -5,15 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioClip bandaSonora;
-    public AudioClip pop;
+    public AudioClip bandaSonoraMenuEscena1;
+    public AudioClip bandaSonoraEscena3Degas1;
+    public AudioClip bandaSonoraGeneral;
 
     private AudioSource _audioSource;
 
-    public static AudioManager Instance { get; private set; }
+    // Listas de nombres de escenas donde el sonido debería reproducirse
+    private readonly List<string> escenasMenuEscena1 = new List<string> { "Menu", "Escena1" };
+    private readonly List<string> escenasEscena3Degas1 = new List<string> { "Escena3", "Degas1" };
 
-    // Lista de nombres de escenas donde el sonido debería reproducirse
-    private readonly List<string> escenasPermitidas = new List<string> { "Menu", "Escena1" };
+    public static AudioManager Instance { get; private set; }
 
     void Awake()
     {
@@ -21,13 +23,12 @@ public class AudioManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            _audioSource = GetComponent<AudioSource>();
 
             SceneManager.sceneLoaded += OnSceneLoaded;
 
-            _audioSource = GetComponent<AudioSource>();
-            _audioSource.clip = bandaSonora;
-            _audioSource.loop = true;
-            _audioSource.Play();
+            // Comprobar la escena actual y reproducir el sonido adecuado
+            CheckCurrentScene(SceneManager.GetActiveScene());
         }
         else
         {
@@ -37,12 +38,31 @@ public class AudioManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (!escenasPermitidas.Contains(scene.name))
+        CheckCurrentScene(scene);
+    }
+
+    private void CheckCurrentScene(Scene scene)
+    {
+        if (escenasMenuEscena1.Contains(scene.name))
         {
-            _audioSource.Stop();
+            PlaySound(bandaSonoraMenuEscena1);
         }
-        else if (!_audioSource.isPlaying)
+        else if (escenasEscena3Degas1.Contains(scene.name))
         {
+            PlaySound(bandaSonoraEscena3Degas1);
+        }
+        else
+        {
+            PlaySound(bandaSonoraGeneral);
+        }
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        if (_audioSource.clip != clip)
+        {
+            _audioSource.clip = clip;
+            _audioSource.loop = true;
             _audioSource.Play();
         }
     }
@@ -50,11 +70,5 @@ public class AudioManager : MonoBehaviour
     private void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Aquí puedes agregar la lógica para el update si es necesario
     }
 }
