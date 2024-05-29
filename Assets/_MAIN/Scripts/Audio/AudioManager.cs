@@ -35,7 +35,7 @@ public class AudioManager : MonoBehaviour
         Sounds.Add("Menu", new AudioClip[] { MenuEscena1 });
         Sounds.Add("Escena1", new AudioClip[] { MenuEscena1 });
         Sounds.Add("Escena2", Escena2);
-        Sounds.Add("Escena3", Escena3);
+        Sounds.Add("Escena3", new AudioClip[] { Degas1 });
         Sounds.Add("Degas1", new AudioClip[] { Degas1 });
         // Añadir los nuevos clips de audio para las nuevas escenas
         
