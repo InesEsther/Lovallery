@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 697234395}
   - component: {fileID: 697234394}
   m_Layer: 0
-  m_Name: audioManager
+  m_Name: AudioManagerMenuEscena1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -919,8 +919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 8300000, guid: 2f4a14f8cdac92643ba8158cc4f26957, type: 3}
-  pop: {fileID: 8300000, guid: 19e3379c16dce93429642a1264af805c, type: 3}
+  bandaSonoraMenuEscena1: {fileID: 8300000, guid: 2f4a14f8cdac92643ba8158cc4f26957, type: 3}
+  bandaSonoraEscena3Degas1: {fileID: 0}
+  bandaSonoraGeneral: {fileID: 0}
 --- !u!1 &1038585944
 GameObject:
   m_ObjectHideFlags: 0

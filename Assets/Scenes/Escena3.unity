@@ -2192,7 +2192,7 @@ GameObject:
   - component: {fileID: 1583494313}
   - component: {fileID: 1583494314}
   m_Layer: 0
-  m_Name: AudioManager
+  m_Name: AudioManagerEscena3Degas1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2417,8 +2417,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 0}
-  pop: {fileID: 0}
+  bandaSonoraMenuEscena1: {fileID: 0}
+  bandaSonoraEscena3Degas1: {fileID: 0}
+  bandaSonoraGeneral: {fileID: 0}
 --- !u!114 &1583494314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2431,8 +2432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 0}
-  pop: {fileID: 0}
+  bandaSonoraMenuEscena1: {fileID: 0}
+  bandaSonoraEscena3Degas1: {fileID: 0}
+  bandaSonoraGeneral: {fileID: 0}
 --- !u!1 &1619776613
 GameObject:
   m_ObjectHideFlags: 0
