@@ -654,17 +654,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonoraMenuEscena1: {fileID: 0}
-  audiosEscena3: []
-  bandaSonoraDegas1: {fileID: 0}
-  audiosEscena: []
-  audiosEscena2: []
-  audiosDegas2: []
-  audiosDegasGoodEnd: []
-  audiosCassattGoodEnd:
-  - {fileID: 8300000, guid: 9b64333c925c3504bb7093230602bba5, type: 3}
-  audiosCassatt1: []
-  audiosCassatt2: []
+  MenuEscena1: {fileID: 0}
+  Escena3: []
+  Degas1: {fileID: 0}
+  Escena1: []
+  Escena2: []
 --- !u!4 &597218427
 Transform:
   m_ObjectHideFlags: 0
@@ -1565,6 +1559,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac172b5cd4ea035458d572a45f759820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogText: {fileID: 29633202}
+  nameText: {fileID: 1023976056}
+  Menu: Menu
 --- !u!1 &2092475473
 GameObject:
   m_ObjectHideFlags: 0

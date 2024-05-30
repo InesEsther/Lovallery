@@ -1,13 +1,13 @@
 Edgar Degas: ¿Todavía sigues por aquí, mujer?
 Valerie: Te recuerdo que tengo un nombre.
-Edgar Degas: Ya si. 
+Edgar Degas: Ya, si. 
 Valerie: Para empezar, ¿Por qué estás tan enfadado por compartir sitio con Mary? Pensaba que os llevabais bien.
 Edgar Degas: Porque es una mujer, está genial que se presente junto a todos nosotros, solo que…
 Valerie: ¿Solo que, qué?
 Edgar Degas: Solo que debería estar en su propia sección, una sección de mujeres, no compartirla con los hombres. 
 Valerie: Ajam… Ya. ¿Y por qué crees que es así?
 Edgar Degas: A las mujeres solo les gusta pintar cosas aburridas, al público no le va a interesar si hay mujeres entre nosotros, probablemente ni se fijen en sus obras si las ponen junto a las mías, que soy el más reconocido por la crítica. 
-: Qué friki. 
+: Qué creido. 
 : A lo mejor no debería haberlo seguido.
 DECISION_1
 Edgar Degas: No es eso.
@@ -15,5 +15,10 @@ Valerie: ¿Entonces?
 Edgar Degas: Eh…
 Desconocido: La clase ha terminado por hoy, niñas, vayan a cambiarse.
 : Nos miramos mutuamente y supe que no iba a tener respuesta después de todo.
-Valerie: ¿A dónde vas ahora?
+: Mejor dejo la conversación ahí.
+Valerie: ¿A dónde irás ahora?
 Edgar Degas: Voy a mi casa a coger una botella de vino y luego al parque a beber.
+Valerie: ¿Seguro que es lo mejor ir a beber ahora?
+: Sin respuesta, ya estaba caminando hacia una dirección. Tuve que darme prisa para alcanzarlo.
+: Ni siquiera me preguntó mi opinión.
+: Pero no voy a dejar que se vaya así.
