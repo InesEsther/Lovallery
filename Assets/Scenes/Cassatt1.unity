@@ -564,11 +564,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 322717572}
-  - component: {fileID: 322717573}
   - component: {fileID: 322717574}
   - component: {fileID: 322717575}
   m_Layer: 0
-  m_Name: audioManager
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,21 +588,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &322717573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322717570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bandaSonoraMenuEscena1: {fileID: 0}
-  audiosEscena3: []
-  bandaSonoraDegas1: {fileID: 0}
 --- !u!82 &322717574
 AudioSource:
   m_ObjectHideFlags: 0
