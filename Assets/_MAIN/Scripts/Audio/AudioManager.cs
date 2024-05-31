@@ -10,6 +10,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip Degas1;
     public AudioClip[] Escena1;
     public AudioClip[] Escena2;
+    public AudioClip Cassatt1;
+    public AudioClip[] Cassatt2;
+    public AudioClip[] Degas2;
 
     private AudioSource _audioSource;
 
@@ -37,7 +40,9 @@ public class AudioManager : MonoBehaviour
         Sounds.Add("Escena2", Escena2);
         Sounds.Add("Escena3", new AudioClip[] { Degas1 });
         Sounds.Add("Degas1", new AudioClip[] { Degas1 });
-        // Añadir los nuevos clips de audio para las nuevas escenas
+        //Sounds.Add("Degas2", new AudioClip [] { Degas2 });
+        Sounds.Add("Cassatt1", new AudioClip [] { Cassatt1 });
+        //Sounds.Add("Cassatt2", new AudioClip [] { Cassatt2 });
         
     }
 
