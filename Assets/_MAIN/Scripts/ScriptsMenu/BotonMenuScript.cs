@@ -47,4 +47,8 @@ public class BotonMenuScript : MonoBehaviour
     public void OcultarConfiguracion(){
         panelConfiguracion.SetActive(false);
     }
+
+    public void ReturnMenu(){
+       SceneManager.LoadScene("Menu");         
+    }
 }

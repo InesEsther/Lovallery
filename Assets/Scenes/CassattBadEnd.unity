@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5924529, g: 0.56674266, b: 0.56674266, a: 1}
+  m_Color: {r: 0.836478, g: 0.54449975, b: 0.554453, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -329,7 +329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Men\xFA"
+  m_Text: Volver al Inicio
 --- !u!222 &793910799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -714,6 +714,7 @@ GameObject:
   - component: {fileID: 1414819088}
   - component: {fileID: 1414819087}
   - component: {fileID: 1414819086}
+  - component: {fileID: 1414819089}
   m_Layer: 5
   m_Name: BotonMenu
   m_TagString: Untagged
@@ -824,6 +825,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414819083}
   m_CullTransparentMesh: 1
+--- !u!114 &1414819089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414819083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6220827c78c7d64bba29c434bd77321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botonMenu: {fileID: 1414819086}
 --- !u!1 &1712538243
 GameObject:
   m_ObjectHideFlags: 0
