@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class InicioScript : MonoBehaviour
 {
-    GameObject panelConfiguracion;
+//    GameObject panelConfiguracion;
 
     /* guardado
     public class GameState 
@@ -28,8 +28,8 @@ public class InicioScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        panelConfiguracion = GameObject.Find("PanelConfiguracion");
-        panelConfiguracion.SetActive(false);
+//        panelConfiguracion = GameObject.Find("PanelConfiguracion");
+//        panelConfiguracion.SetActive(false);
     }
 
     // Update is called once per frame
@@ -45,13 +45,5 @@ public class InicioScript : MonoBehaviour
     public void ExitGame(){
         Debug.Log("exit");
         Application.Quit();
-    }
-
-    public void MostrarConfiguracion(){
-        panelConfiguracion.SetActive(true);
-    }
-
-     public void OcultarConfiguracion(){
-        panelConfiguracion.SetActive(false);
     }
 }
