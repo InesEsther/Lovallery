@@ -264,8 +264,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892a4b5bdb7ebf54fa0e8ad0a8dbeaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 0}
-  pop: {fileID: 0}
+  MenuEscena1: {fileID: 0}
+  Escena3: []
+  Degas1: {fileID: 0}
+  Escena1: []
+  Escena2: []
 --- !u!1 &189700769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,7 +1019,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 659ae29c213f2c44c999f695edcc3dea, type: 3}
+  m_Texture: {fileID: 2800000, guid: a8d127b7353a01c4ea63e3795806427c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
