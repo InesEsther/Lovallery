@@ -16,17 +16,17 @@ Mary Cassatt: ¿Por qué lo dice?
 : El bartender nos trajo nuestros cafés con lo que pedimos. 
 : Mary empezó a comer mientras yo me explicaba.
 Valerie: Todo el mundo le saluda, la quiere y la respeta por esta zona.
-Valerie: Es lo que podido ver el día de hoy contigo.
+Valerie: Es lo que he podido ver el día de hoy contigo.
 Valerie: Edgar es afortunado de tenerte como amiga.
 Mary Cassatt: Me alaga señorita Couturier, pero…
-Valerie: Valerie, dime Valerie.
+Valerie: Valerie, llámame Valerie.
 Mary Cassatt: Valerie… Pero creo que no soy como usted espera.
-Mary Cassatt: Yo solo soy como cualquier otra persona con etiqueta sería.
+Mary Cassatt: Yo solo soy como cualquier otra persona con modales.
 Valerie: Pues el señor Degas no lo es.
 Mary Cassatt: Él es para dar de comer aparte. Hablo en general.
 : Nos echamos a reir.
 Mary Cassatt: Creo que tendrías que conocerme mejor para tener una impresión correcta de mi.
-Valerie: ¿Pues sabe que? No habría cosa que más me apeteciera en este momento que conocerte, Mary.
+Valerie: ¿Pues sabes qué? No habría cosa que más me apeteciera en este momento que conocerte, Mary.
 : Me dedicó una bonita sonrisa, tanto que hizo que mi corazón parara por un segundo.
 : ¿Sería un poco violento si intentara un movimiento con ella?
 Mary Cassatt: ¿Por qué me elegiste? Degas no estaba equivocado tampoco.
@@ -39,7 +39,7 @@ Mary Cassatt: Lo veo muy complicado, Valerie.
 Valerie: No tienes que hacerlo todo de repente, Mary, puedes empezar con pequeñas cosas…
 Mary Cassatt: ¿Cómo cuáles?
 Valerie: Como…
-: No podía decirle lo que estaba pensando, porque no se si ella quiere.
+: No podía decirle lo que estaba pensando, porque no sé si ella quiere.
 : No podía evitar mirar sus labios.
 Mary Cassatt: ¿Cómo besarme?
 Valerie: …
@@ -47,9 +47,9 @@ Valerie: …
 : Sentía que me ardía la cara.
 Mary Cassatt: Bueno, solo se vive una vez, así que… 
 : Parecía estar de acuerdo, pero se veía muy perdida, no parecía acostumbrada a esto.
-: Me acerqué la primera pues, aprovechando que nadie nos veía. 
+: Me acerqué la primera, aprovechando que nadie nos veía. 
 : Estaba tan cerca que podía notar su aliento.
-: Pero ella, nerviosa, abrió el abanico que siempre cargaba con ella, dándose aire.
+: Pero ella, nerviosa, abrió el abanico que siempre le acompañaba, dándose aire.
 : Le di unos segundos para que se sintiera cómoda y volví a acercarme. 
 : Esta vez no se movía, pero no me estaba rechazando.
 DECISION_3

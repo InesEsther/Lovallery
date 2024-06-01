@@ -37,4 +37,6 @@ public class PointManager1 : MonoBehaviour
     {
         points = 0;
     }
+
+
 }
