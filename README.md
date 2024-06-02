@@ -1,6 +1,1 @@
-Videojuego creado por: 
-
-Violeta García 
-Inés Leca
-Estela Navarro
-María Sánchez 
+Demo del videojuego Lovallry creada por: Violeta García, Inés Leca, Estela Navarro y María Sánchez 
